@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css"/>
+    <script src="https://kit.fontawesome.com/c7aa55e571.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <video autoplay muted loop>
+        <source src="images/darkwebvid.mp4" type="video/mp4">
+    </video>
+
+
+    <!-- <img src="images/gimp.png" class="bg"/> -->
+
+
+
+    <div id="header">
+       <div class="container">
+        <nav>
+            <img src="images/logoC.png" alt="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi,I'm <span>Sandesh</span><br>Yadav From Nepal</h1>
+        </div>
+       </div>
+    </div>
+    <!--About Me-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user7.png" alt="about-me"/>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi,i'm Sandesh Prasad Yadav. I am from Nepal.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Designing WebSites and Develope It.</li>
+                            <li><span>JAVA Developer</span><br>JAVA Apps Development</li>
+                            <li><span>Content Writer</span><br>Writing Content for YouTube video and Story Writer.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-2025</span><br>Web Development training at Parul University</li>
+                            <li><span>2023-2024</span><br>JAVA Apps Development Training at KG Coding</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Passed 10<sup>th</sup> class from Madharsha School</li>
+                            <li><span>2023</span><br>Diploma in Computer Science Engineering From Parul University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------services--------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i><!--first go to fontawesome website and link fontawesome to head tag-->
+                <h2>Web Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ipsum velit iusto dolor sed nulla id beatae accusamus eligendi,
+                 minus voluptatum, dolorum quo voluptas. Quisquam quae molestiae
+                  expedita repellendus, quo ipsam.</p>
+                  <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-java"></i><!--first go to fontawesome website and link fontawesome to head tag-->
+                <h2>JAVA Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ipsum velit iusto dolor sed nulla id beatae accusamus eligendi,
+                 minus voluptatum, dolorum quo voluptas. Quisquam quae molestiae
+                  expedita repellendus, quo ipsam.</p>
+                  <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-blog"></i><!--first go to fontawesome website and link fontawesome to head tag-->
+                <h2>Content Writing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ipsum velit iusto dolor sed nulla id beatae accusamus eligendi,
+                 minus voluptatum, dolorum quo voluptas. Quisquam quae molestiae
+                  expedita repellendus, quo ipsam.</p>
+                  <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work--1.jpg" alt="work-1">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Nihil modi odio alias, 
+                    eos explicabo debitis quia tempore atque officiis iste, 
+                    excepturi quas quos laboriosam unde amet veniam autem
+                    reprehenderit molestias!</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg" alt="work-1">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Nihil modi odio alias, 
+                    eos explicabo debitis quia tempore atque officiis iste, 
+                    excepturi quas quos laboriosam unde amet veniam autem
+                    reprehenderit molestias!</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpg" alt="work-1">
+                <div class="layer">
+                    <h3>Online Shooping App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Nihil modi odio alias, 
+                    eos explicabo debitis quia tempore atque officiis iste, 
+                    excepturi quas quos laboriosam unde amet veniam autem
+                    reprehenderit molestias!</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ----Contact-------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>sandeshyadav731@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+9779826253000</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/sandesh_yadav7?igsh=cHhuNGY5b3M5d3hk"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100041301160297&mibextid=JRoKGi"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://wa.me/qr/QRY36XSKB7C5L1"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.youtube.com/channel/UCobWLcQsEjcpVz78IGKWMjA#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://vm.tiktok.com/ZSFQ9PMFP/"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea type="text" name="Message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Sandesh. Made with <i class="fa-solid fa-heart"></i> by Sandesh Yadav.</p>
+    </div>
+</div>
+
+    <!--Out of mind java script-->
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+       
+    </script>
+    <script>
+        var sidemeu=document.getElementsById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbxX5yHRnFeBPXGk3KW7FhQO2xee9wnuinwU_rlAUeDMpHMKbtAf-9n3etbHZKaq3m7e/exec>'
+        const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById("msg");
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
